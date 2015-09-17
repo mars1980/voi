@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Verizon Innovation - Our Partners</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+<!-- <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' /> -->
+<link href='styles.css' rel='stylesheet' />
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+<!--<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiamFja21vcnRvbm55YyIsImEiOiIwYzU2ZWMxODFkZTc4NDNlMjJkMzI2Y2JmNDZmZTJkMSJ9.ChW3cZaLwlcXAnqwahW6VA';
+var map = L.mapbox.map('map', 'jackmortonnyc.nf7mankj')
+    .setView([38, -95.0], 5);
+
+     zoomControl: false
+
+// Disable drag and zoom handlers.
+map.dragging.disable();
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+
+// Disable tap handler, if present.
+if (map.tap) map.tap.disable();
+
+// As with any other AJAX request, this technique is subject to the Same Origin Policy:
+// http://en.wikipedia.org/wiki/Same_origin_policy
+// So the CSV file must be on the same domain as the Javascript, or the server
+// delivering it should support CORS.
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('/mapbox.js/assets/data/eastcoast_cities.geojson')
+    .addTo(map);
+
+// Especially with dynamic data, it's useful to automatically fit all markers
+// in the map bounds instead of guessing and checking center and zoom values
+
+// Since this layer is loaded with the asynchronous method loadURL, that uses
+// AJAX in the background, we wait for all of the markers to be loaded by
+// waiting for the ready event. If you don't load your markers with an async
+// method and instead set them with setGeoJSON or similar, you don't need
+// to do this.
+featureLayer.on('ready', function() {
+    // featureLayer.getBounds() returns the corners of the furthest-out markers,
+    // and map.fitBounds() makes sure that the map contains these.
+    map.fitBounds(featureLayer.getBounds());
+});
+
+
+</script>-->
+
+<script>
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiamFja21vcnRvbm55YyIsImEiOiIwYzU2ZWMxODFkZTc4NDNlMjJkMzI2Y2JmNDZmZTJkMSJ9.ChW3cZaLwlcXAnqwahW6VA';
+// Construct a bounding box for this map that the user cannot
+// move out of
+var southWest = L.latLng(13.376425, -168.972062),
+    northEast = L.latLng(63.688975, -23.425193),
+    bounds = L.latLngBounds(southWest, northEast);
+
+var map = L.mapbox.map('map', 'jackmortonnyc.nf7mankj', {
+    // set that bounding box as maxBounds to restrict moving the map
+    // see full maxBounds documentation:
+    // http://leafletjs.com/reference.html#map-maxbounds
+    maxBounds: bounds,
+    maxZoom: 6,
+    minZoom: 4
+});
+
+// zoom the map to that bounding box
+map.fitBounds(bounds);
+
+</script>
+
+
+</body>
+</html>
