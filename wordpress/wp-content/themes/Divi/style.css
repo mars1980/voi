@@ -14,3 +14,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /* Page Builder Modules Styles */
 @import url("./includes/builder/styles/frontend-builder-style.css?ver=2.5.3");
+
+/*Jack Morton - Custom Styles */
+@import url("jm-custom.css");
