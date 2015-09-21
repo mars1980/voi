@@ -2,30 +2,94 @@
 
 
 
-/*Typography*/
+/*TYPOGRAPHY STILO*/
 
 h1{
 	font-weight: bolder;
 	color: #CD040B;
+	font-size: 38px;
 }
 h2{
-	text-transform: capitalize;
-	color:#959595; /*Light Grey*/
+	/*color:#959595; /*Light Grey*/
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+
+/*THEME CLASSES --- LANDING SECTION*/
+
+.et_pb_section_0 {
+	height:750px;
+}
+
+.et_pb_section_0 h1{
+	font-size: 3.8em
+}
+
+.et_pb_row_0{
+	padding-top:23% !important;
+}
+
+
+.et_pb_text_1, .et_pb_text_2, .et_pb_text_3 {
+
+	width: 70%;
+	margin-top: 30% !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	font-size: 1.2em;
+	text-align: center;
 	font-weight: bold;
 }
 
+
+
+
+
+
+
+/*CUSTOM CLASS FIELD --- ABOUT US SECTION*/
+
 .aboutUs h1{
-width:60%;
+width:80%;
 padding-top: 2%;
+font-size: 36px;
+font-weight: bold;
+line-height: 1.2;
+
 }
 
 .aboutUs p{
-	width:50%;
+	width:70%;
 	color: black;
 	/*letter-spacing: -1px;*/
 	font-weight: normal;
-
+	font-size: 1.2em;
 }
 
-/*layout*/
+
+
+.aboutUs h1  .aboutUs p {margin-top: 5% !important}
+
+.aboutUs{margin: 5% 0 0 5%}
+
+/*CLASS IS CALLED INLINE - TEXT EDITOR*/
+.bigIdeas{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+.bigIdeas h1{
+	width: 65%;
+	margin: 0 auto;
+}
+.bigIdeas p{
+		color: black;
+	/*letter-spacing: -1px;*/
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+
 
