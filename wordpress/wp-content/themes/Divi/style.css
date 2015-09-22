@@ -17,3 +17,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /*Jack Morton - Custom Styles */
 @import url("jm-custom.css");
+
+/*https://daneden.github.io/animate.css/ - CSS Animation Library*/
+@import url ("animate.css");

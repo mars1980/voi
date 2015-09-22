@@ -35,6 +35,7 @@
 
 	<?php wp_head(); ?>
 		<link rel='stylesheet' href='jm-custom.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='animate.css' type='text/css' media='all' />
 
 </head>
 <body <?php body_class(); ?>>
