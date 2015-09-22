@@ -1,4 +1,4 @@
-* {font-family: Arial, Helvetica, sans-serif}
+* {font-family: Arial, Helvetica, sans-serif; }
 
 
 
@@ -7,71 +7,94 @@
 h1{
 	font-weight: bolder;
 	color: #CD040B;
-	font-size: 38px;
+	font-size: 58px;
+	letter-spacing: -1px;
+
 }
 h2{
 	/*color:#959595; /*Light Grey*/
-	font-weight: bolder;
-	font-size: 1.5em;
-}
-
-
-/*THEME CLASSES --- LANDING SECTION*/
-
-.et_pb_section_0 {
-	height:750px;
-}
-
-.et_pb_section_0 h1{
-	font-size: 3.8em
-}
-
-.et_pb_row_0{
-	padding-top:23% !important;
-}
-
-
-.et_pb_text_1, .et_pb_text_2, .et_pb_text_3 {
-
-	width: 70%;
-	margin-top: 30% !important;
-	margin-left:auto !important;
-	margin-right:auto !important;
-	font-size: 1.2em;
-	text-align: center;
 	font-weight: bold;
+	font-size: 1.7em;
+	letter-spacing: -1px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: -1px;
+
+}
+
+a{
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #0066CC;
+}
+a:hover{
+	color:#00478E !important;
+}
+/*ARROWS*/
+.et_pb_image_0, .et_pb_image_1, .et_pb_image_2{
+	width:50%;
+	margin: 5% auto!important;
+	opacity: .5;
 }
 
 
+#top-menu li > a{
+	font-size: 1.3em !important;
+	color: black !important;
+	padding-left:1%;
+	padding-right: 1%;
+}
 
+#top-menu li > a:hover{
+	color:#00478E
+}
+.et_pb_text_1, .et_pb_text_2, .et_pb_text_3 {margin: 0 auto !important}
 
+.et_pb_section_0 > .et_parallax_bg {
+background-position: left -400px !important;
+}
 
 
 
 /*CUSTOM CLASS FIELD --- ABOUT US SECTION*/
 
-.aboutUs h1{
-width:80%;
-padding-top: 2%;
-font-size: 36px;
+.et_pb_section_parallax .et_pb_parallax_css, .et_pb_slides .et_parallax_bg.et_pb_parallax_css {
+    background-attachment: fixed;
+    background-position: 100% top;
+}
+.et_pb_column_5{
+	width:45% !important;
+}
+
+.heading h1{
+width:94%;
+padding-top: 1%;
+font-size: 48px;
 font-weight: bold;
 line-height: 1.2;
 
 }
 
-.aboutUs p{
-	width:70%;
+.heading p{
+	width:75%;
 	color: black;
 	/*letter-spacing: -1px;*/
 	font-weight: normal;
-	font-size: 1.2em;
+	font-size: 1.4em;
+	line-height: 1.2;
 }
 
 
 
-.aboutUs h1  .aboutUs p {margin-top: 5% !important}
+.heading h1  .heading p {margin-top: 5% !important}
 
-.aboutUs{margin: 5% 0 0 5%}
+.heading{margin: 0 0 0 6%}
+
+.et_pb_image_3{
+}
 
 /*CLASS IS CALLED INLINE - TEXT EDITOR*/
 .bigIdeas{
@@ -81,15 +104,19 @@ line-height: 1.2;
 
 
 .bigIdeas h1{
-	width: 65%;
+	width: 95%;
 	margin: 0 auto;
+	font-size: 48px;
 }
 .bigIdeas p{
-		color: black;
-	/*letter-spacing: -1px;*/
-	font-weight: normal;
-	font-size: 1.2em;
+	color: black;
+ 	width:95%;
+ 	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 1.2;
 }
 
 
-
+.header-content h2{
+	margin-left: 1% ;
+}
