@@ -14,7 +14,7 @@ h1{
 h2{
 	/*color:#959595; /*Light Grey*/
 	font-weight: bold;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	letter-spacing: -1px;
 }
 h3 {
@@ -28,10 +28,25 @@ a{
 	font-weight: bold;
 	letter-spacing: -1px;
 	font-size: 24px;
-	color: #0066CC;
+	/*color: #0066CC;*/
+	color:black;
+	-webkit-transition: .3s;
+	transition: .3s;
 }
 a:hover{
-	color:#00478E !important;
+	/*color:#00478E !important;*/
+	padding-right: 8px;
+}
+a img:hover{
+	padding-top: 5px;
+		-webkit-transition: .3s;
+	transition: .3s;
+}
+h5{
+	font-size: 2em !important;
+	font-weight: bold !important;
+	letter-spacing: -1px;
+	line-height: 1;
 }
 /*ARROWS*/
 .et_pb_image_0, .et_pb_image_1, .et_pb_image_2{
@@ -59,7 +74,7 @@ background-position: left -400px !important;
 
 
 
-/*CUSTOM CLASS FIELD --- ABOUT US SECTION*/
+/*CUSTOM CLASS FIELD */
 
 .et_pb_section_parallax .et_pb_parallax_css, .et_pb_slides .et_parallax_bg.et_pb_parallax_css {
     background-attachment: fixed;
@@ -67,6 +82,11 @@ background-position: left -400px !important;
 }
 .et_pb_column_5{
 	width:45% !important;
+}
+
+.et_pb_slide_description h2{
+	font-weight: 600 !important;
+	font-size: 2.2em;
 }
 
 .heading h1{
@@ -98,14 +118,13 @@ line-height: 1.2;
 
 /*CLASS IS CALLED INLINE - TEXT EDITOR*/
 .bigIdeas{
-	width: 70%;
-	margin: 0 auto;
+/*	width: 70%;
+	margin: 0 auto;*/
 }
 
 
 .bigIdeas h1{
-	width: 95%;
-	margin: 0 auto;
+	/*width: 95%;*/
 	font-size: 48px;
 }
 .bigIdeas p{

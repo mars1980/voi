@@ -22,6 +22,7 @@
 	<?php do_action( 'et_head_meta' ); ?>
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<link rel='stylesheet' href='jm-custom.css' type='text/css' media='all' />
 
 	<?php $template_directory_uri = get_template_directory_uri(); ?>
 	<!--[if lt IE 9]>
@@ -33,6 +34,8 @@
 	</script>
 
 	<?php wp_head(); ?>
+		<link rel='stylesheet' href='jm-custom.css' type='text/css' media='all' />
+
 </head>
 <body <?php body_class(); ?>>
 	<div id="page-container">
