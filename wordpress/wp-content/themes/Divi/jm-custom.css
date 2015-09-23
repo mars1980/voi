@@ -92,6 +92,21 @@ background-position: left -400px !important;
 .et_pb_section_parallax .et_pb_parallax_css, .et_pb_slides .et_parallax_bg.et_pb_parallax_css {
     background-attachment: fixed;
     background-position: 100% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.et_pb_image_3 {
+    /*width: 70%;*/
+     right: 10%
+     top: -135px;
+    position: relative;
+}
+
+.et_pb_image_3 img{
+	width:80% !important;
 }
 .et_pb_column_5{
 	width:45% !important;
@@ -111,6 +126,7 @@ padding-top: 1%;
 font-size: 48px;
 font-weight: bold;
 line-height: 1.2;
+margin-left: -5%;
 
 }
 
@@ -140,6 +156,11 @@ line-height: 1.2;
 .bigIdeas h1{
 	/*width: 95%;*/
 	font-size: 48px;
+}
+
+.bigIdeas h2{
+	margin-left: -5%
+}
 }
 .bigIdeas p{
 	color: black;
@@ -261,5 +282,15 @@ h3{
 
 
 
+@media only screen and (min-width: 981px){
+#logo {
+    max-width: 25% !important;
+}
+}
 
 
+/*--------------------ASTRONAUGHT PARALLAX*/
+
+/*.et_pb_fullwidth_image_0{
+	margin-bottom: 90% !important;
+}*/
