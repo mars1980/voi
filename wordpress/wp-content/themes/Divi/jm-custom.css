@@ -257,7 +257,7 @@ h3{
 	display: none;
 }
 
-.et_pb_image_3{
+.et_pb_image_3{ /*shifting elements*/
 	display: none;
 }
 
@@ -303,6 +303,26 @@ h3{
 
 } /*end 400 media query*/
 
+@media all and ( max-width: 1000px ) {
+/*resize the parallax images in the 'about us' section*/
+.et_pb_column_6{
+	max-width: 50%;
+}
+.et_parallax_bg img{
+width: 70%;
+
+}
+/*resize the text in the 'about us' section*/
+.heading h1 {
+    font-size: 26px;
+
+}
+
+.heading p{
+	font-size: 16px;
+}
+
+}
 
 
 /* CRYS--->min width is anything larger than specified*/
@@ -310,8 +330,3 @@ h3{
 
 
 
-/*--------------------ASTRONAUGHT PARALLAX*/
-
-/*.et_pb_fullwidth_image_0{
-	margin-bottom: 90% !important;
-}*/
