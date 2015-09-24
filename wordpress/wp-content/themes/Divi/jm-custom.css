@@ -59,6 +59,12 @@ a img:hover{
 
 /*-----------REWRITE EXISTING CSS CLASSES FROM THEME STYLESHEETS*/
 
+
+/*#logo img{
+	width: 90%;
+}*/
+
+
 /*ARROWS*/
 .et_pb_image_0, .et_pb_image_1, .et_pb_image_2{
 	width:50%;
@@ -86,7 +92,7 @@ a img:hover{
 }
 
 /*moving the background around for the astroParallax*/
-/*.et_pb_section_0 > .et_parallax_bg {
+.et_pb_section_0 > .et_parallax_bg {
 background-position: left -400px !important;
 }
 
@@ -97,7 +103,7 @@ background-position: left -400px !important;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 .et_pb_image_3 {
     /*width: 70%;*/
@@ -287,11 +293,9 @@ h3{
 
 
 
-@media only screen and (min-width: 981px){
-#logo {
-    max-width: 25% !important;
-}
-}
+/* CRYS--->min width is anything larger than specified*/
+ /*min-width: 400px;*/
+
 
 
 /*--------------------ASTRONAUGHT PARALLAX*/
