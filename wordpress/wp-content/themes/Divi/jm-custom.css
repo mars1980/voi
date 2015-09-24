@@ -58,13 +58,6 @@ a img:hover{
 
 
 /*-----------REWRITE EXISTING CSS CLASSES FROM THEME STYLESHEETS*/
-
-
-/*#logo img{
-	width: 90%;
-}*/
-
-
 /*ARROWS*/
 .et_pb_image_0, .et_pb_image_1, .et_pb_image_2{
 	width:50%;
@@ -124,11 +117,14 @@ background-position: left -400px !important;
 	font-size: 2.2em;
 }
 
-
+.et_pb_image_0 {
+	/*float:left;*/
+	left:-20%;
+}
 
 /*-----------CUSTOM CLASS FIELD (css classes added in GUI) */
 .heading h1{
-width:94%;
+width:125%;
 padding-top: 1%;
 font-size: 48px;
 font-weight: bold;
@@ -137,52 +133,64 @@ margin-left: -5%;
 
 }
 
-.heading p{
-	width:75%;
-	color: black;
-	/*letter-spacing: -1px;*/
-	font-weight: normal;
-	font-size: 1.4em;
-	line-height: 1.2;
-}
-
 .heading h1  .heading p {margin-top: 5% !important}
 
 .heading{margin: 0 0 0 6%}
 
 
-
 /*-----------CLASS IS CALLED INLINE - VIA GUI TEXT EDITOR*/
-
-.bigIdeas{
-/*	width: 70%;
-	margin: 0 auto;*/
-}
+.bigIdeas{}
 
 
 .bigIdeas h1{
 	/*width: 95%;*/
 	font-size: 48px;
+	margin-left:-7%;
 }
 
+/*---------------------------COLUMN ALIGNMENT*/
+/*ALIGN ALL THE H2'S TO THE SAME LEFT JUSTIFY*/
+
 .bigIdeas h2{
+	margin-left: -11%
+}
+.future h2{
+	margin-left: -22%;
+}
+
+.collaboration h2{
 	margin-left: -5%
+
 }
-}
+
+
+
+
+/*ALIGN ALL THE P'S TO THE SAME LEFT JUSTIFY*/V
+
 .bigIdeas p{
-	color: black;
  	width:95%;
  	font-weight: normal;
 	font-size: 1.4em;
 	line-height: 1.2;
+	margin-left: -150%;
+	background-color: blue !important;
+}
+
+.heading p{
+	width:95%;
+	/*letter-spacing: -1px;*/
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 1.2;
+	margin-left: -5%;
 }
 
 
 
-.et_pb_image_0 {
-	/*float:left;*/
-	left:-20%;
-}
+
+
+
 
 
 /*-------------- - RESPONSIVE STYLES*/
