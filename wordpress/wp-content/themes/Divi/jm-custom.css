@@ -319,11 +319,15 @@ width: 70%;
 
 
 /*ASTRO PARALLALX*/
-.astroParallax{
-  -webkit-background-size: cover;
+.et_parallax_bg, .et_pb_parallax_css img{
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover*/;
+   /*background-attachment: fixed;*/
+/* background-position: -1200px -400px;
+ height: 400px;
+ width: 100%;*/
 
 }
 
