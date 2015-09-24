@@ -63,6 +63,7 @@ a img:hover{
 	width:50%;
 	margin: 5% auto!important;
 	opacity: .5;
+	max-width: 60px !important;
 }
 
 #top-menu li > a{
@@ -213,7 +214,10 @@ h1{
 h3{
 	font-size: 18px;
 }
-
+/*ARROWS*/
+.et_pb_image_0, .et_pb_image_1, .et_pb_image_2{
+	max-width: 35px !important;
+}
 .heading{
 	margin-bottom: 20%;
 }
